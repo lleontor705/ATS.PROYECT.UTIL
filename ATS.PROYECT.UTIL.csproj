@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>ATS_icon_only.ico</ApplicationIcon>
+    <PackageIcon>ATS_icon_only.png</PackageIcon>
+    <Title>ATS.PROYECT.UTIL</Title>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/lleontor705/ATS.PROYECT.UTIL</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/lleontor705/ATS.PROYECT.UTIL</PackageProjectUrl>
+    <Copyright>https://github.com/lleontor705/ATS.PROYECT.UTIL/blob/main/LICENSE</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>ATSUTIL.CORE</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ATS_icon_only.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\ATS_icon_only.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="RestSharp" Version="111.4.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
