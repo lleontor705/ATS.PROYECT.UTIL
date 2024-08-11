@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\ats.proyect.util.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:ats.proyect.util.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\databasehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Constants\\Constants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:45:16.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T03:45:16.144Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "BDHelper\\DatabaseHandlerFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:42:17.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T03:42:17.757Z"
             },
             {
               "$type": "Document",
@@ -93,12 +91,11 @@
               "RelativeToolTip": "BDHelper\\DBManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:41:53.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T03:41:53.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ATS.PROYECT.UTIL",
               "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\ATS.PROYECT.UTIL.csproj",
               "RelativeDocumentMoniker": "ATS.PROYECT.UTIL.csproj",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "BDHelper\\DataParameterManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T02:17:05.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T02:17:05.617Z"
             }
           ]
         }
