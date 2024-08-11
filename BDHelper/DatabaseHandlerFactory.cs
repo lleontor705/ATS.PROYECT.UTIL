@@ -35,30 +35,22 @@ namespace ATS.PROYECT.UTIL.BDHelper
         /// <param name="configuration"></param>
         /// <param name="useNetCoreConfig"></param>
         /// <exception cref="ArgumentException"></exception>
-        public DatabaseHandlerFactory(string connectionName, IConfiguration configuration, bool useNetCoreConfig)
+        public DatabaseHandlerFactory(string connectionName, IConfiguration configuration)
         {
-            if (useNetCoreConfig)
+            // Accede a la sección anidada bajo ConnectionStrings
+            var connectionSection = configuration.GetSection($"ConnectionStrings:{connectionName}");
+
+            // Obtén la cadena de conexión y el nombre del proveedor
+            var connectionString = connectionSection.GetSection("ConnectionString").Value;
+            providerName = connectionSection.GetSection("ProviderName").Value;
+
+
+            if (string.IsNullOrEmpty(connectionString) || string.IsNullOrEmpty(providerName))
             {
-                var connectionString = configuration.GetConnectionString(connectionName);
-                providerName = configuration.GetSection($"ConnectionStrings:{connectionName}:ProviderName").Value;
-
-                if (string.IsNullOrEmpty(connectionString) || string.IsNullOrEmpty(providerName))
-                {
-                    throw new ArgumentException($"No se encontró la cadena de conexión o el proveedor con el nombre '{connectionName}' en el archivo appsettings.json.");
-                }
-
-                connectionStringSettings = new ConnectionStringSettings(connectionName, connectionString, providerName);
+                throw new ArgumentException($"No se encontró la cadena de conexión o el proveedor con el nombre '{connectionName}' en el archivo appsettings.json.");
             }
-            else
-            {
-                connectionStringSettings = ConfigurationManager.ConnectionStrings[connectionName];
-                if (connectionStringSettings == null)
-                {
-                    throw new ArgumentException($"No se encontró la cadena de conexión con el nombre '{connectionName}' en el archivo Web.config o App.config.");
-                }
 
-                providerName = connectionStringSettings.ProviderName;
-            }
+            connectionStringSettings = new ConnectionStringSettings(connectionName, connectionString, providerName);
         }
 
         public IDataAccess CrearDatabase()

@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.Extensions.Configuration;
 using NpgsqlTypes;
 using System;
 using System.Collections.Generic;
@@ -13,12 +14,23 @@ namespace ATS.PROYECT.UTIL.BDHelper
         private readonly string nombreproveedor;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="DBManager"/> class.
+        /// Initializes a new instance of the <see cref="DBManager"/> netframework.
         /// </summary>
         /// <param name="cadenaconexion">The connection string name.</param>
         public DBManager(string cadenaconexion)
         {
             dbFactory = new DatabaseHandlerFactory(cadenaconexion);
+            database = dbFactory.CrearDatabase();
+            nombreproveedor = dbFactory.ObtenerNombreProveedor();
+        }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DBManager"/> net core.
+        /// </summary>
+        /// <param name="cadenaconexion"></param>
+        /// <param name="configuration"></param>
+        public DBManager(string cadenaconexion, IConfiguration configuration)
+        {
+            dbFactory = new DatabaseHandlerFactory(cadenaconexion, configuration);
             database = dbFactory.CrearDatabase();
             nombreproveedor = dbFactory.ObtenerNombreProveedor();
         }
