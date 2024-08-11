@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:ats.proyect.util.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\databasehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:bdhelper\\databasehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:bdhelper\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:bdhelper\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\dataparametermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:bdhelper\\dataparametermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|c:\\users\\luisl\\source\\repos\\ats.proyect.util\\bdhelper\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9B93F-B73A-479A-A619-6D33881FD73F}|ATS.PROYECT.UTIL.csproj|solutionrelative:bdhelper\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAOIAAAAAAAAAAAAuwBoBAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-11T03:47:58.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\Constants\\Constants.cs",
-              "RelativeDocumentMoniker": "Constants\\Constants.cs",
-              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\Constants\\Constants.cs",
-              "RelativeToolTip": "Constants\\Constants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:45:16.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseHandlerFactory.cs",
-              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DatabaseHandlerFactory.cs",
-              "RelativeDocumentMoniker": "BDHelper\\DatabaseHandlerFactory.cs",
-              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DatabaseHandlerFactory.cs",
-              "RelativeToolTip": "BDHelper\\DatabaseHandlerFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:42:17.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DBManager.cs",
-              "RelativeDocumentMoniker": "BDHelper\\DBManager.cs",
-              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DBManager.cs",
-              "RelativeToolTip": "BDHelper\\DBManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:41:53.01Z"
             },
             {
               "$type": "Document",
@@ -102,32 +41,46 @@
               "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\ATS.PROYECT.UTIL.csproj",
               "RelativeToolTip": "ATS.PROYECT.UTIL.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-11T02:41:11.267Z",
+              "WhenOpened": "2024-08-11T05:04:07.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "BDHelper\\SqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\SqlDataAccess.cs",
-              "RelativeToolTip": "BDHelper\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DBManager.cs",
+              "RelativeDocumentMoniker": "BDHelper\\DBManager.cs",
+              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DBManager.cs",
+              "RelativeToolTip": "BDHelper\\DBManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIgCAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T02:21:07.195Z"
+              "WhenOpened": "2024-08-11T04:55:12.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\Constants\\Constants.cs",
+              "RelativeDocumentMoniker": "Constants\\Constants.cs",
+              "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\Constants\\Constants.cs",
+              "RelativeToolTip": "Constants\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T03:58:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DataParameterManager.cs",
               "DocumentMoniker": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DataParameterManager.cs",
               "RelativeDocumentMoniker": "BDHelper\\DataParameterManager.cs",
               "ToolTip": "C:\\Users\\luisl\\source\\repos\\ATS.PROYECT.UTIL\\BDHelper\\DataParameterManager.cs",
               "RelativeToolTip": "BDHelper\\DataParameterManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAAjAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T02:17:05.617Z"
+              "WhenOpened": "2024-08-11T03:58:37.727Z"
             }
           ]
         }
